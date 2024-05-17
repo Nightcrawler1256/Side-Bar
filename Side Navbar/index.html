@@ -1,0 +1,57 @@
+2<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side Navbar with Tabs</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Side Nav -->
+    <div class="side-nav">
+        <a href="#" class="nav-link active" onclick="openTab(event, 'overview')">Overview</a>
+        <a href="#" class="nav-link" onclick="openTab(event, 'amenities')">Amenities</a>
+        <a href="#" class="nav-link" onclick="openTab(event, 'package')">Booking & Cancelling</a>
+        <a href="#" class="nav-link" onclick="openTab(event, 'rates')">Hotel Policy</a>
+        <a href="#" class="nav-link" onclick="openTab(event, 'option1')">Option 1</a>
+        <a href="#" class="nav-link" onclick="openTab(event, 'option2')">Option 2</a>
+        <a href="#" class="nav-link" onclick="openTab(event, 'option3')">Option 3</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div id="overview" class="tab-content active">
+            <h2>Overview</h2>
+            <p>The accommodation options at Utsav combine historical legacy with contemporary features and amenities. With a total of 35 rooms, Utsav can accommodate guests with exclusive and premium services.</p>
+            <p>The suite is a world of its own, ensuring absolute privacy within an apartment provisioned with all the amenities your heart could wish for. The air-conditioned luxury suites are fitted with 32" LED TV screens, spacious wardrobes complete with lockers and luggage compartments, amenities like 24-hour Internet/Broadband facility, telephones, refrigerator, writing table, mini bar, and tea and coffee maker.</p>
+        </div>
+        <div id="amenities" class="tab-content">
+            <h2>Amenities</h2>
+            <p>Details about amenities...</p>
+        </div>
+        <div id="package" class="tab-content">
+            <h2>Booking & Cancelling</h2>
+            <p>Details about booking and cancelling...</p>
+        </div>
+        <div id="rates" class="tab-content">
+            <h2>Hotel Policy</h2>
+            <p>Details about hotel policy...</p>
+        </div>
+        <div id="option1" class="tab-content">
+            <h2>Option 1</h2>
+            <p>Details about option 1...</p>
+        </div>
+        <div id="option2" class="tab-content">
+            <h2>Option 2</h2>
+            <p>Details about option 2...</p>
+        </div>
+        <div id="option3" class="tab-content">
+            <h2>Option 3</h2>
+            <p>Details about option 3...</p>
+        </div>
+    </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
